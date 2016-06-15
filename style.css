@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-content: center;
+    background-image: url(foto/White-Background-9B1.jpg);
+}
+
+.houder {
+     width:  300px;
+    float: left;
+    overflow: hidden;
+}
+
+.houder{
+     width:  300px;
+    height: 240px;
+    float: left;
+    margin: 2em;
+    margin-left: 300px;
+    margin: 10px;
+}
+
+.houder:hover {
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    
+}
+
+.afbeelding{
+ width: 300px;
+    height: 210px;
+    overflow: hidden;
+}
+
+.afbeelding img{
+    width: 100%;
+}
