@@ -15,7 +15,7 @@ $(document).ready(function() {
     });
     
     function haalFoto(){
-       var flickrURL = "http://api.flickr.com/services/feeds/photos_public.gne?format=json&tags=" + Search +"&jsoncallback=?"
+       var flickrURL = "http://api.flickr.com/services/feeds/photos_public.gne?format=json&tags=" + Search +"&jsoncallback=?";
        
        $.ajax (
        {
@@ -30,9 +30,9 @@ $(document).ready(function() {
     function verwerkFotos(data){
         console.log(data);
         $('#fotos').html("");
-        for(var i=0; 1<data.items.length; i++){
+        for(var i=0; i<data.items.length; i++){
             var foto = data.items[i];
-            var htmlCode = "<div id='container'><div class='houder'><div class='afbeelding>'<a href='" + foto.link + "' target='_blank'><img src='" + foto.media.m + "' alt='" + foto.title + "' ></a></div><h4>" + foto.title + "</h4></div></div>";
+            var htmlCode = "<div class='houder'><div class='afbeelding'><a href='" + foto.link + "'target='_blank'><img src='" + foto.media.m + "'></a></div><h4>" + foto.title + "'alt='" + foto.title + "'</h4></div>";
             $('#fotos').append(htmlCode);
         }
     }

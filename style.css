@@ -7,19 +7,13 @@ body {
     background-image: url(foto/White-Background-9B1.jpg);
 }
 
-.houder {
-     width:  300px;
-    float: left;
-    overflow: hidden;
-}
 
 .houder{
      width:  300px;
     height: 240px;
     float: left;
-    margin: 2em;
+    margin: 4em;
     margin-left: 300px;
-    margin: 10px;
 }
 
 .houder:hover {
